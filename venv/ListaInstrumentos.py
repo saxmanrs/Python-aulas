@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 
 
-instrumentos = {'sax':100,'violão':200,'guitarra': 300}
 
+idade =int(raw_input('Digite a idade: ')
 
-
-for instrumento in instrumentos:
-    print(instrumento)
+           if idade >=18:
+                print('maior de idade ')
+           elif  70< idade < 80:
+               print('idoso')
+           else :
+               print('menor de idade ')

@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+
+
+
+idade =int(raw_input('Digite a idade: '))
+
+
+if idade >= 18 <= 70:
+    print('maior de idade ')
+elif 70 > idade:
+    print('idoso')
+else:
+    print('menor de idade')
